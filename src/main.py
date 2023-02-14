@@ -1,3 +1,3 @@
-# This program prints Hello, world!
+# This program prints about the main page, world!
 
-print('Hello, world!')
+print('Hello main page!')
