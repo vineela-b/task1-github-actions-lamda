@@ -1,0 +1,19 @@
+Task 1
+Task. Link
+1.	Create a new project.
+2.	Create a new feature branch.
+3.	Add first html, js and css files.
+4.	Create a pull request and approve it.
+
+
+GitHub Actions. Link
+1.	Create an yaml file for a build pipeline and get all files from the main branch and pack it into the drop.zip archive. 
+2.	The pipeline should use a trigger to run the process if someone changes a file in the main branch.
+3.	Store the archive in the build pipeline to reuse it in other pipelines.
+A Cloud Guru Sandbox
+1.	Create a new Environment in AWS and connect the GitHub Project with this sandbox. Link
+2.	Create a new AWS Lambda.
+GitHub Actions
+1.	Create a new yaml for a deployment pipeline.
+a.	The deployment pipeline should take the output artifice from the build pipeline (drop.zip).
+b.	Deploy drop.zip to the AWS Lambda service.
